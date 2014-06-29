@@ -4,7 +4,7 @@ fedora-chroot-osv
 This is Fedora chroot image for OSv build enviroment, for other distribution user who wants to build OSv without various problems.
 
 
-Instruction
+Usage
 -----------
 
 ```
@@ -20,4 +20,11 @@ cd osv
 make
 ./scripts/run.py
 (OSv will startup in a sec)
+```
+
+Rebuild tar.xz
+--------------
+You need to run this on Fedora 20.
+```
+./build.sh
 ```
