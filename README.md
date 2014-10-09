@@ -1,16 +1,16 @@
-fedora-chroot-osv
+fedora-chroot-image
 =================
 
-This is Fedora chroot image for OSv build enviroment, for other distribution user who wants to build OSv without various problems.
+This is Fedora chroot image and its build script, for other distribution users who want to use Fedora without virtualization / re-install Linux.
 
 
 Usage
 -----------
 
 ```
-wget -O fedora-osv.tar.xz "https://github.com/syuu1228/fedora-chroot-osv/blob/master/fedora-osv.tar.xz?raw=true"
-sudo tar -xpf fedora-osv.tar.xz
-sudo ./run-fedora-osv.sh
+wget -O fedora-chroot.tar.xz "https://github.com/syuu1228/fedora-chroot-image/blob/master/fedora-chroot.tar.xz?raw=true"
+sudo tar -xpf fedora-chroot.tar.xz
+sudo ./run-fedora-chroot.sh
 (You'll get root user shell inside of chroot)
 
 cd ~
